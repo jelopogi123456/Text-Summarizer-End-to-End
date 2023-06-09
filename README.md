@@ -90,7 +90,7 @@ Email: anjeloyumul12@gmail.com
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: public.ecr.aws/r6f0o3y0/text-s
+    - Save the URI: 747813579154.dkr.ecr.us-west-2.amazonaws.com/text-s
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -126,6 +126,6 @@ Email: anjeloyumul12@gmail.com
 
     AWS_REGION = us-west-2
 
-    AWS_ECR_LOGIN_URI = demo>>  public.ecr.aws/r6f0o3y0
+    AWS_ECR_LOGIN_URI = demo>>  747813579154.dkr.ecr.us-west-2.amazonaws.com
 
     ECR_REPOSITORY_NAME = text-s
